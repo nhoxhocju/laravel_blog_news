@@ -1,0 +1,397 @@
+
+a:hover{
+    text-decoration: none;
+}
+.new-item,
+.recruitment-item {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #80808045;
+}
+
+.new-item .new-image {
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.new-item .new-image>img {
+    transition: all ease-in 0.3s;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.new-item .new-content {
+    padding: 7% 7% 1% 7%;
+}
+
+.new-item .new-content .new-title h3,
+.recruitment-title {
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px !important;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.new-item .new-content .new-title,
+.recruitment-title {
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    ;
+
+}
+
+.new-item .new-content,
+.new-item .new-date,
+.recruitment-description {
+    color: #707070;
+    font-size: 14px;
+}
+
+.new-item .new-date {
+    text-align: right;
+}
+
+.page-title{
+    color: #154992;
+    font-weight: bold;
+    font-size: 30px;
+}
+.new-intro-page{
+    background: url("https://metro.co.uk/wp-content/uploads/2019/02/sei_50501662-a46c.jpg") center center no-repeat;
+    background-size: cover;
+}
+.intro-page {
+    overflow: hidden;
+    height: 70vh;
+    position: relative;
+}
+.recent-news a {
+    color: black;
+    font-size: 11px;
+}
+
+.recent-news-item a:hover {
+    text-decoration: none;
+}
+
+.recent-news-item hr {
+    margin-top: 0;
+}
+
+.group-news-title {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.group-news-title-space {
+    height: 2px;
+    width: 10%;
+    background: #333333;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.group-news {
+    padding: 0 20% 0 0;
+}
+.intro-form button {
+    position: absolute;
+    top: 26%;
+    right: 3%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #707070
+}
+
+.intro-form form {
+    position: relative;
+}
+.new-intro-page .new-group-title {
+    margin-top: 12vh;
+}
+
+.new-intro-page .group-title {
+    margin-top: 50px;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.news-details-section-header {
+    margin-bottom: 50px;
+}
+
+.news-details-section-header h2 {
+    color: #154992;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.4em;
+    text-transform: uppercase;
+}
+
+.news-details-section-content {
+    padding-right: 6%;
+    border-right: 2px solid #154992;
+}
+
+.news-details-section-content img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.news-details-section-content p {
+    text-align: justify;
+}
+
+.news-details-section-tags p {
+    margin: 0;
+    margin-top: 50px;
+    color: #154992;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.news-details-section-tags span {
+    font-size: 0.9em;
+}
+
+.sidebar-section-1 h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.sidebar-section-1-item {
+    margin: 15px 0;
+}
+
+.sidebar-section-1-item img {
+    height: 12vh;
+}
+
+.sidebar-section-1-item p {
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+
+/* css footer */
+
+.footer {
+    color: white;
+    position: relative;
+}
+
+
+.over-footer {
+    background: url('http://bizman.tesosoft.com/img/footer/footer.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.group-image {
+    margin-top: 25px;
+}
+
+.group-image img {
+    width: 10%;
+}
+
+.group-image li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.group-image li:first-child {
+    margin-left: 0;
+}
+
+.footer-row {
+    padding: 0 10%;
+    display: flex;
+}
+
+.footer-copyright {
+    padding: 8px 0;
+    background: white;
+    font-size: 10px;
+}
+
+.footer .footer-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.footer .footer-title.left {
+    text-align: left;
+}
+
+.footer a:hover {
+    color: #FFDF00;
+}
+
+.footer a,
+.footer li {
+    color: #d6d6d6;
+    font-size: 13px;
+}
+
+.footer i {
+    margin-right: 15px;
+    color: white;
+}
+
+.footer-form {
+    text-align: right;
+    color: black;
+    padding: 0 !important;
+}
+
+.footer-form p {
+    width: 60%;
+    margin-left: auto;
+    font-size: 9px;
+    line-height: 12px;
+    color: #676767;
+}
+
+.footer-form form {
+    width: 70%;
+    margin-left: auto;
+}
+
+.footer-form form input {
+    border: 2px solid #154992b8;
+}
+
+
+.form-title {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+#load{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 100vh; 
+    background-color: #003f9e;
+}
+/* #load2{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+/* .lds-dual-ring {
+    display: inline-block;
+    width:100%;
+    height:100%;
+    transform: translate(-50%, -50%);
+  } */
+.lds-dual-ring {
+    /* content: " "; */
+    /* display: block; */
+    /* display: inline-block; */
+    width: 46px;
+    height: 46px;
+    /* z-index:9999; */
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+    position: fixed;
+    
+}
+@keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.navbar-light.fixed-top{
+    background-color: #000 ;
+    /* color: white !important; */
+}
+.fixed-top .nav-link {
+    color: white !important;
+}
+
+.fixed-top .dropdown-item {
+    background-color: #000;
+    color: #fff;
+}
+#back-to-top{
+    /* transform: translateX(-100%);
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    z-index: 999;
+    color: white;
+    font-size: 18px;
+    background-color: red;
+    margin-right: 5px; */
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 3%;
+    right: 30px;
+    cursor: pointer;
+    transition: all ease-in .3s;
+    text-align: center;
+    line-height: 30px;
+    transform: translateX(300%);
+    background-color: #154992;
+    z-index: 999;
+    border-radius: 20px;
+}
+#back-to-top.scrollDown{
+    transform: translateX(50%);
+}
+
+.ekko-lightbox-nav-overlay > a{
+    display: none;
+}
+
+/* end footer */
